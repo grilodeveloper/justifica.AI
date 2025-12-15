@@ -3,7 +3,7 @@ import { ArrowLeft, Copy, Share2, RefreshCw, Check, Bookmark } from "lucide-reac
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import type { ExcuseConfig } from "./ContextScreen";
 import { generateCorporateExcuse, getAbsurdLevelLabel, getContextLabel } from "../lib/corporate-excuse-generator";
 import { trackExcuseCopy, getCopyCount } from "../lib/usage-tracker";

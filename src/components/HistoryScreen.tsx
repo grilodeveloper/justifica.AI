@@ -3,7 +3,7 @@ import { ArrowLeft, Copy, Trash2, FileText, Clock, LogOut, Calendar } from "luci
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { trackExcuseCopy } from "../lib/usage-tracker";
 import type { ExcuseConfig } from "./ContextScreen";
 

@@ -3,7 +3,7 @@ import { ArrowLeft, Copy, Share2, Zap, Check } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { generateCorporateExcuse, getContextLabel } from "../lib/corporate-excuse-generator";
 import { trackExcuseCopy } from "../lib/usage-tracker";
 import type { ExcuseConfig } from "./ContextScreen";
