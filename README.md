@@ -1,67 +1,59 @@
-Justifica.AI
+# Justifica.AI
 
-Justifica.AI is a web application developed during the 1st Digital Experience Guild Workshop by Ybera. The project was the overall winner of the competition, which evaluated teams based on UX Research, Prototyping, and Technical Development.
+> **1º Digital Experience Guild Workshop da Ybera**
 
-The project was built through a collaborative effort between Design and Engineering, bridging the gap between AI-assisted prototyping and functional front-end code.
+O `Justifica.AI` é uma aplicação web desenvolvida para unir a prototipagem assistida por IA ao código front-end funcional. O projeto foi o vencedor geral da competição, reconhecido por sua excelência em **UX Research**, **Prototipagem** e **Desenvolvimento Técnico**.
 
-The Workshop Challenge
-The competition was structured into three evaluation pillars:
+---
 
-Research: Application of research techniques and data accuracy.
+## O Desafio do Workshop
+A competição avaliou as equipes com base em três pilares fundamentais:
 
-Prototyping: Navigation, interventions, and flow using Figma Make.
+* **Pesquisa:** Aplicação de técnicas de pesquisa e precisão dos dados.
+* **Prototipagem:** Fluxos de navegação e usuário criados utilizando o *Figma Make*.
+* **Desenvolvimento:** Fidelidade visual e agilidade na entrega.
 
-Development & Presentation: Code quality, visual fidelity to the prototype, agility, and communication.
+---
 
-Award and Recognition
-Our team (Jhonnyssom Silva and Caroline Sales) achieved 1st place. The project was highlighted by the Tech Lead and Senior Design mentors for:
+## Premiação e Reconhecimento
+Nossa equipe conquistou o **1º lugar**, com menções especiais de mentores Tech Leads e Designers Seniores por:
 
-Consistency across all stages of the Discovery process.
+* **Consistência:** Alinhamento total durante todo o processo de Discovery.
+* **Alta Fidelidade:** Implementação perfeita dos componentes de interface gerados por IA.
+* **Agilidade:** Entrega funcional utilizando padrões modernos de desenvolvimento web.
 
-High-fidelity implementation of the AI-generated UI components.
+---
 
-Agile and functional code delivery using modern web standards.
+## Pilares do Projeto
 
-Project Pillars
-Discovery and UX
-The project started with an objective and practical Discovery phase, ensuring that the final solution addressed real user data and clear pain points.
+### Discovery e UX
+Uma fase prática focada em abordar dados reais de usuários e resolver pontos de dor claros.
 
-Design to Code
-The UI was initially drafted using Figma Make, focusing on seamless user flows and high-quality interface structures. The engineering phase translated these visual assets into a functional React application with high fidelity.
+### Do Design ao Código
+A interface foi inicialmente desenhada no *Figma Make*, com foco em fluxos contínuos. A fase de codificação traduziu o design em uma aplicação **React**.
 
-Technical Stack
-Framework: React.js
+### Stack Técnica
+* **Framework:** React.js
+* **Ferramenta de Build:** Vite
+* **Gerenciador de Pacotes:** `pnpm`
+* **Integração de Design:** Figma Make
 
-Build Tool: Vite
+---
 
-Package Manager: pnpm
+## Autores
+* **Jhonnyssom Silva** – [Desenvolvimento Front-end](https://github.com/grilodeveloper)
+* **Caroline Sales** – [Product Design](https://github.com/carolinesales)
 
-Design Integration: Figma Make
+---
 
-Authors
-Jhonnyssom Silva - Front-end Development
+## Primeiros Passos
 
-Caroline Sales - Product Design (GitHub Profile)
+### Pré-requisitos
+* Node.js (Versão LTS mais recente)
+* pnpm
 
-Getting Started
-Prerequisites
-Node.js (Latest LTS recommended)
+### Instalação
 
-pnpm
-
-Installation
-Clone the repository:
-
-Bash
-
-git clone https://github.com/grilodeveloper/justifica-ai.git
-Install dependencies:
-
-Bash
-
-pnpm install
-Start the development server:
-
-Bash
-
-pnpm dev
+1. **Clonar o repositório**
+   ```bash
+   git clone [https://github.com/grilodeveloper/justifica-ai.git](https://github.com/grilodeveloper/justifica-ai.git)
